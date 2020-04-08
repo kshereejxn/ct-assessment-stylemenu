@@ -5,6 +5,11 @@
     - Use the 'Lato' font family at 18px throughout the body of the document
     - cover the of the document background with the "map-bg.jpg" image in the images directory. 
 */
+body {
+    font-family: 'Lato';
+    background-image: url("../images/map-bg.jpg");
+    background-repeat: no-repeat;
+}
 
 
 nav {font-family: sans-serif;font-size: 10px;}
@@ -16,7 +21,11 @@ nav {font-family: sans-serif;font-size: 10px;}
         - set the font size to 45px 
         - set the font color to #5d4037
 */
-
+#main h1 {
+    font-family: 'Supermercado One';
+    font-size: 45px;
+    color: #5d4037;
+}
 
 /* 
     Update the following ruleset (#menu) to accomplish the following:
@@ -25,6 +34,7 @@ nav {font-family: sans-serif;font-size: 10px;}
 #menu {
     columns: 400px 2;
     column-gap: 100px;
+    column-rule: dashed 2px rosybrown;
 }
 
 section {padding-bottom: 50px;}
@@ -35,7 +45,10 @@ h2 {margin: 0;}
         - Show each of the section headings of the menu  in small caps
         - set the font color to #6d4c41
 */
-
+h2 {
+    font-variant: small-caps;
+    color: #6d4c41;
+}
 
 /* 
     Add a CSS ruleset targeting the name of each menu item to accomplish the following:
