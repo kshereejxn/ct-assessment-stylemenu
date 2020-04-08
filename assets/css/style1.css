@@ -8,7 +8,11 @@
 body {
     font-family: 'Lato';
     background-image: url("../images/map-bg.jpg");
+    background-size: cover;
     background-repeat: no-repeat;
+    background-position: center;
+    background-color: black;
+
 }
 
 
@@ -55,7 +59,10 @@ h2 {
         - Set the font size to 20px
         - Make the font bold
 */
-
+dt {
+    font-size: 20px;
+    font-weight: bold;
+}
 
 dd {margin: 0 0 12px 0; display: flex;}
 .details {order: 1;}
@@ -68,6 +75,8 @@ dd {margin: 0 0 12px 0; display: flex;}
 .price {
     order: 2;
     padding-left: 10px;
+    font-size: large;
+    color: firebrick;
 }
 
 address {padding: 10px;}
@@ -76,3 +85,6 @@ address {padding: 10px;}
     Add a CSS ruleset targeting the footer to accomplish the following:
         - Draw a 2px dashed rosybrown border
 */
+footer {
+    border: dashed 2px rosybrown;
+}
